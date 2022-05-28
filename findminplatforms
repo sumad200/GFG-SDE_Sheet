@@ -2,6 +2,8 @@ class Solution
 {
     //Function to find the minimum number of platforms required at the
     //railway station such that no train waits.
+    //benjaminhernmr.21.1.99.0@gmail.com
+    //QaZwSx
     static int findPlatform(int arr[], int dep[], int n)
     {
         int curr = 0;

@@ -7,7 +7,7 @@ Keep length and maxlen , store maximum length in maxlen
 
 !IMPORTANT: above idea Doesnt work as it is if entire array sum is 0 , solns: 
 
-handle prefix sum = 0 case separately , length = i;
+handle prefix sum = 0 case separately , length = i; ( Done in this file )
 
 or put 0 (psum) , -1 (index) before loop
 

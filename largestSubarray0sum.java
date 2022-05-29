@@ -1,15 +1,18 @@
 /*
 
-Hashmap <prefix-sum,index> to store 1 st instance of prefix sum, if that same prefix sum occurs again stop insertion and find length with index
+Hashmap <prefix-sum,index> to store 1 st instance of prefix sum, if that same prefix sum (psum) occurs again stop insertion and find length with difference b/w index 
+
+and value already in hashmap
 
 Keep length and maxlen , store maximum length in maxlen
 
 
-!IMPORTANT: above idea Doesnt work as it is if entire array sum is 0 or psum becomes 0 at any point, solns: 
+!! IMPORTANT !! 
+edge case to be handled: above idea Doesnt work as it is if entire array sum is 0 or psum becomes 0 at any point, solns: 
 
 handle prefix sum = 0 case separately , length = i; ( Done in this file )
 
-or put 0 (psum) , -1 (index) before loop
+or put <0 (psum) , -1 (index)> into hashmap before loop
 
 
 */

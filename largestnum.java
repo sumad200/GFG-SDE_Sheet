@@ -1,3 +1,14 @@
+/*
+
+Solved using custom comparator in arrays.sort
+
+A custom comparator should override the public int compare method
+
+
+
+*/
+
+
 class Solution {
     String printLargest(String[] arr) {
         

@@ -5,7 +5,7 @@ Hashmap <prefix-sum,index> to store 1 st instance of prefix sum, if that same pr
 Keep length and maxlen , store maximum length in maxlen
 
 
-!IMPORTANT: above idea Doesnt work as it is if entire array sum is 0 , solns: 
+!IMPORTANT: above idea Doesnt work as it is if entire array sum is 0 or psum becomes 0 at any point, solns: 
 
 handle prefix sum = 0 case separately , length = i; ( Done in this file )
 

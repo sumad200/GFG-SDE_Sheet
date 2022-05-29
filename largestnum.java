@@ -4,7 +4,9 @@ Solved using custom comparator in arrays.sort
 
 A custom comparator should override the public int compare method
 
+It should return an int , +ve return would be placed before in the 
 
+sorting process , same for  -ve
 
 */
 

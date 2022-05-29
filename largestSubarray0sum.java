@@ -1,3 +1,13 @@
+/*
+
+Hashmap to store 1 st instance of prefix sum, if that same prefix sum occurs again stop insertion and find length with index
+
+Keep length and maxlen , store maximum length in maxlen
+
+
+*/
+
+
 class Solution
 {
     int maxLen(int arr[], int n)

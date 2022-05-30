@@ -1,6 +1,6 @@
 /*
 
-!LOGIC! 
+!LOGIC! ( Check comment of this commit )
 sum(a1) - a + b = sum ( a2 ) - b + a
 
 where:

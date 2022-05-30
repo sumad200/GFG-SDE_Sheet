@@ -1,10 +1,23 @@
+/*
+
+!LOGIC!
+sum(a1) - a + b = sum ( a2 ) - b + a
+
+where:
+
+a1 = array 1          a2 = array 2
+
+a belongs to a1     b belongs to a2
+
+*/
+
 class Solution
 {
     long findSwapValues(long A[], int n, long  B[], int m)
     {
          if(m < n){
             
-            findSwapValues(B, m, A, n);
+            findSwapValues(B, m, A, n); // Always keep smaller array 1st for smaller treeset
             
         }
         

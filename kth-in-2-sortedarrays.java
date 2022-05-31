@@ -2,7 +2,15 @@
 
 K th element in 2 sorted arrays
 
+!LOGIC!
 
+k th element will be a collection of i elements from array 1 and k-i elements from array 2
+
+the answer will be max of both bcoz when these k elements will be sorted, the max will occupy the 
+
+kth position, to find max we only need to compare last picked element fron both arrays
+
+as the before ones are already sorted
 
 */
 

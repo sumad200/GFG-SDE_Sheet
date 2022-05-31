@@ -1,6 +1,6 @@
 /*
 
-K th element in 2 sorted arrays
+K th element of 2 sorted arrays
 
 !LOGIC!
 
@@ -11,6 +11,8 @@ the answer will be max of both bcoz when these k elements will be sorted, the ma
 kth position, to find max we only need to compare last picked element fron both arrays
 
 as the before ones are already sorted
+
+check TUF vid on YT for detailed logic and edge cases
 
 */
 

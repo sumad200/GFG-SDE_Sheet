@@ -1,4 +1,12 @@
+/*
 
+Divide search area in half for every iteration till element is found
+
+using a low and high, find mid if < mid target on lesser half else on higher half
+
+repeat till low high dont cross each other
+
+*/
 class Solution {
     int binarysearch(int arr[], int n, int k) {
         

@@ -2,6 +2,14 @@
 
 First element to atleast k times
 
+Keep a hashmap, insert 1st time ( key doesnt exist ) as :
+
+arr[i] -> 1;
+
+if key already exists, increment the value
+
+since k maybe 1 the check for k should be outside if-else block
+
 */
 class Solution
 {

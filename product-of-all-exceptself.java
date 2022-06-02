@@ -2,10 +2,13 @@
 
 Product of Array Except Self 
 
+Create an array ans, fill with 1 as multiplication is not affected by 1;
 
+create pre = 1 ; loop from 1 to n prefix multiply to store product of all before i at i
 
+similarly post =1; loop backwards to store product of all after i at i ( multiply with pre )
 
-
+return ans
 
 */
 

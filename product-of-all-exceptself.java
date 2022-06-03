@@ -8,7 +8,11 @@ create pre = 1 ; loop from 1 to n prefix multiply to store product of all before
 
 similarly post =1; loop backwards to store product of all after i at i ( multiply with pre )
 
+Since ans already contains pre, just multiply with the values in ans 
+
 return ans
+
+Since ans doesn't count as extra space as per question, O(1) space
 
 */
 

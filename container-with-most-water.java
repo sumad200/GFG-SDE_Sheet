@@ -5,6 +5,9 @@ Container with most water
 !LOGIC!
 Two Pointer approach
 
+Main approach: https://www.youtube.com/watch?v=ZHQg07n_tbg
+enhancement: https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation/7314
+
 */
 
 class Solution {

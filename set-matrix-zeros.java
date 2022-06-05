@@ -5,6 +5,12 @@ or column is 0
 
 !LOGIC!
 
+Take status of presence of zero in row1 in a bool 
+for col 1 in a bool
+
+now use row1 to mark status of all columns except 1st
+use col1 to mark status of all rows except 1st
+
 NeetCode video
 
 

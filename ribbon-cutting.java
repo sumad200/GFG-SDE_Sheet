@@ -13,6 +13,8 @@ Binary search b/w 1 to max. size
 if( pieces less) reduce high to mid-1, piece size too big
 else increase low as we may get a bigger piece size that satisfies k
 
+!BRUTE APPROACH CODE IN LINTCODE!
+
 */
 public class Solution {
     /**

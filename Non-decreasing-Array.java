@@ -1,3 +1,11 @@
+/*
+
+!LOGIC
+
+for each possible pair in array when to make both smaller one or both larger one
+
+
+*/
 class Solution {
     public boolean checkPossibility(int[] nums) {
         

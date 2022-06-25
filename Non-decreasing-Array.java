@@ -5,7 +5,7 @@
 for each possible pair in array when to make both smaller one or both larger one
 
 references: https://www.youtube.com/watch?v=RegQckCegDk
-            
+            https://www.youtube.com/watch?v=Dxv_kCAYOk4
 
 
 */

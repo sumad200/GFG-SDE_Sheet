@@ -24,8 +24,7 @@ Let 0 to 25 represent lowercase alphabets and <b>N</b> be a large prime number t
      
      hash = hash mod N ( To mod for last added i as loop will terminate after just adding i )
 
-
-
+<h4> Dry Run on paper for string </h4>  <h3>xyz</h3>
 
 ![IMG_20220629_122305](https://user-images.githubusercontent.com/92201689/176371873-b978ad27-5e68-4beb-8a9a-a91aa244bdfd.jpg)
 

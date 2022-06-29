@@ -9,12 +9,16 @@ points to be noted:
 (i) Large power values prevented by taking mod power before hand
 (ii) Hash calculated one step by step ans mod taken to prevent overflow
 
-/*
+Hash Implementation as per md file at line 58
+
+slightly different way at line 26,42 
+
+*/
 
 class Solution{
     
     ArrayList<Integer> search(String pat, String S){
-        // your code here
+        
         ArrayList<Integer> ans = new ArrayList<>();
         int n = 6971;
         int target = 0; int win1 = 0;

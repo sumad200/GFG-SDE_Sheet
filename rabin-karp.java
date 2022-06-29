@@ -1,6 +1,13 @@
 /*
 
-RABIN KARP IN JAVA PATTERN SEARCHING PROBLEM
+RABIN KARP IN JAVA FOR 
+PATTERN SEARCHING PROBLEM
+
+Based on rolling hash 
+
+points to be noted:
+(i) Large power values prevented by taking mod power before hand
+(ii) Hash calculated one step by step ans mod taken to prevent overflow
 
 /*
 
